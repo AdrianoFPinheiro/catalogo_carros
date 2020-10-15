@@ -207,8 +207,10 @@ class _CadastroPageState extends State<CadastroPage> {
 
     if (response.isOk()) {
       pushReplacement(context, HomePage());
+//      alert(context, "Cadastrado! -> ", response.msg);
     } else {
-      alert(context, "Erro", response.msg);
+      pushReplacement(context, HomePage());
+//      alert(context, "Erro -> ", response.msg);
     }
 
     setState(() {
