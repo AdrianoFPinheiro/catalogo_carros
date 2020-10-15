@@ -3,14 +3,76 @@
 A new Flutter application.
 
 ## Getting Started
+carros
+A new Flutter application.
 
-This project is a starting point for a Flutter application.
+Getting Started
+Manual de como usar as branches app dos carros.
 
-A few resources to get you started if this is your first Flutter project:
+01_Login_Lista
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Tela de login com web services
+Lista de carros com 4 exemplos de layout
+02_WebServices_Carros
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+List de carros com Web Services
+FutureBuilder
+03_Tabs
+
+Criada a classe CarrosListView
+Na HomePage foi adicionada uma TabBar (classicos, esportivos, luxo)
+Explicado como manter as abas vivas em memória.
+04_Persistencia
+
+Shared Preferences
+Arquivos
+Banco de Dados - SQLite
+05_Cadastro
+
+Formulário para cadastrar um carro
+POST no servidor com JSON do carro
+Share
+Alerta com opções e Bottom Sheet
+06_Camera
+
+Tirar fotos
+Enviar foto para o servidor
+Salvar foto do carro
+07_Streams
+
+Refactor do projeto para utilizar Streams e o padrão Bloc
+08_Erros
+
+Tratamento de erros, try/catch e como utilizar stream.error
+login try/catch
+verificar se existe internet
+RefreshIndicator
+09_Video
+
+Mostrar o vídeo da URL do carro.
+Como usar o plugin url_launcher
+10_Video
+
+Mostrar mapa com a lat/lng que está no cadastro do carro.
+11_Drawer
+
+Menu lateral mostrando os dados do usuário logado.
+12_Firebase_Auth
+
+Login com Google e Firebase
+Menu lateral com o FirebaseUser
+Implementar o login automático no app, caso o usuário esteja logado.
+Logout com Firebase
+13_Firebase_Auth_Parte2
+
+Cadastro de usuário o Firebase
+Aplicativo agora funciona apenas com Firebase (removido o ws de login).
+14_Firebase_Database
+
+Lista de favoritos no realtime database.
+15_WebView
+
+Tela de "Visite o site" com WebView.
+16_Biometria
+
+Biometria com o plugin local_auth
