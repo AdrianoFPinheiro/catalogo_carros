@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "91260616092",
+    "firebase_url": "https://carros-flutter-8ecd4.firebaseio.com",
+    "project_id": "carros-flutter-8ecd4",
+    "storage_bucket": "carros-flutter-8ecd4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:91260616092:android:b5bc6168ff2ca9992b5c59",
+        "android_client_info": {
+          "package_name": "com.adrianofpinheiro.catalogocarros"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "91260616092-uorvh968qkpegjc2mm05k0lcajig5jjl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.adrianofpinheiro.catalogocarros",
+            "certificate_hash": "61e83656b579b1fda09f11920bac15228659f6c6"
+          }
+        },
+        {
+          "client_id": "91260616092-68tfk2h6d6hi5mg2ebjkrmijnl5he6kr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBl7HKo-b0u94BQoITILyjwzQacPzRCzpQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "91260616092-68tfk2h6d6hi5mg2ebjkrmijnl5he6kr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
