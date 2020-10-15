@@ -1,4 +1,3 @@
-
 import 'package:catalogocarros/firebase/firebase_service.dart';
 import 'package:catalogocarros/utils/alerts.dart';
 import 'package:catalogocarros/utils/nav.dart';
@@ -13,17 +12,16 @@ class CadastroPage extends StatefulWidget {
 }
 
 class _CadastroPageState extends State<CadastroPage> {
-  final _tNome = TextEditingController(text: "Adriano F. Pinheiro");
-  final _tEmail = TextEditingController(text: "adriano.pinheiro@gmail.com");
-  final _tSenha = TextEditingController(text: "123456");
+  final _tNome = TextEditingController();
+  final _tEmail = TextEditingController();
+  final _tSenha = TextEditingController();
 
   final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
 
   var _progress = false;
-  
+
   void initState() {
     super.initState();
-
   }
 
   @override
@@ -41,7 +39,6 @@ class _CadastroPageState extends State<CadastroPage> {
   }
 
   _body(BuildContext context) {
-
     return Form(
       key: _formKey,
       child: ListView(
@@ -148,7 +145,6 @@ class _CadastroPageState extends State<CadastroPage> {
               },
             ),
           ),
-
         ],
       ),
     );
@@ -182,7 +178,7 @@ class _CadastroPageState extends State<CadastroPage> {
   }
 
   _onClickCancelar(context) {
-    pushReplacement(context,LoginPage());
+    pushReplacement(context, LoginPage());
   }
 
   _onClickCadastrar(context) async {
@@ -207,16 +203,13 @@ class _CadastroPageState extends State<CadastroPage> {
 
     if (response.isOk()) {
       pushReplacement(context, HomePage());
-//      alert(context, "Cadastrado! -> ", response.msg);
     } else {
-      pushReplacement(context, HomePage());
-//      alert(context, "Erro -> ", response.msg);
+      alert(context, "Cadastrado! ", "Usuário cadastrado com sucesso");
     }
+
 
     setState(() {
       _progress = false;
     });
   }
-
-
 }
