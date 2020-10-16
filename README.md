@@ -3,7 +3,7 @@
 A new Flutter application.
 
 ## Getting Started
-Catalogo de Carros.
+Aplicativo de Catalogo de Carros desenvolvido em <b>FLUTTER</b>
 
 
 ## Splash Screen
