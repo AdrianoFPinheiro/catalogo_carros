@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:catalogocarros/firebase/firebase_service.dart';
+import 'package:catalogocarros/pages/linkedin_page.dart';
 import 'package:catalogocarros/pages/login_page.dart';
 import 'package:catalogocarros/pages/site_page.dart';
 import 'package:catalogocarros/utils/nav.dart';
@@ -89,9 +90,9 @@ class DrawerList extends StatelessWidget {
             ),
             ListTile(
               onTap: () {
-                print("Ajuda");
+                _onClickSobre(context);
               },
-              title: Text("Ajuda"),
+              title: Text("Sobre"),
               leading: Icon(Icons.help),
             ),
             ListTile(
@@ -120,5 +121,10 @@ class DrawerList extends StatelessWidget {
   void _onClickSite(context) {
     pop(context);
     push(context, SitePage());
+  }
+
+  void _onClickSobre(context) {
+    pop(context);
+    push(context, LinkedinPage());
   }
 }
