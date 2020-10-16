@@ -3,18 +3,18 @@
 A new Flutter application.
 
 ## Getting Started
-Catalogo de Carros
+Catalogo de Carros.
 A new Flutter application.
 
 ## Splash Screen
 Animação e transição. 
 
 ## Login Lista
-Tela de login com web services
+Tela de login com web services.
 Lista de carros com 4 exemplos de layout.
 
 ## WebServices Carros
-List de carros com Web Services
+List de carros com Web Services.
 FutureBuilder.
 
 ## Tabs
