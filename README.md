@@ -4,10 +4,11 @@ A new Flutter application.
 
 ## Getting Started
 Catalogo de Carros.
-A new Flutter application.
+
 
 ## Splash Screen
 Animação e transição. 
+
 
 ## Login Lista
 Tela de login com web services.
@@ -30,7 +31,9 @@ Explicado como manter as abas vivas em memória.
 
 ## Persistencia
 Shared Preferences
+
 Arquivos
+
 Banco de Dados - SQLite.
 
 
