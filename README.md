@@ -6,72 +6,72 @@ A new Flutter application.
 Catalogo de Carros
 A new Flutter application.
 
-##Splash Screen
+## Splash Screen
 Animação e transição. 
 
-##Login Lista
+## Login Lista
 Tela de login com web services
 Lista de carros com 4 exemplos de layout.
 
-##WebServices Carros
+## WebServices Carros
 List de carros com Web Services
 FutureBuilder.
 
-##Tabs
+## Tabs
 Criada a classe CarrosListView
 Na HomePage foi adicionada uma TabBar (classicos, esportivos, luxo)
 Explicado como manter as abas vivas em memória.
 
-##Persistencia
+## Persistencia
 Shared Preferences
 Arquivos
 Banco de Dados - SQLite.
 
-##Cadastro
+## Cadastro
 Formulário para cadastrar um carro
 POST no servidor com JSON do carro
 Share
 Alerta com opções e Bottom Sheet.
 
-##Camera
+## Camera
 Tirar fotos
 Enviar foto para o servidor
 Salvar foto do carro.
 
-##Streams
+## Streams
 Refactor do projeto para utilizar Streams e o padrão Bloc.
 
-##Erros
+## Erros
 Tratamento de erros, try/catch e como utilizar stream.error
 login try/catch
 verificar se existe internet
 RefreshIndicator.
 
-##Video
+## Video
 Mostrar o vídeo da URL do carro.
 Como usar o plugin url_launcher
 
-##Mapa
+## Mapa
 Mostrar mapa com a lat/lng que está no cadastro do carro.
 
-##Drawer
+## Drawer
 Menu lateral mostrando os dados do usuário logado.
 
-##Firebase_Auth
+## Firebase_Auth
 Login com Google e Firebase
 Menu lateral com o FirebaseUser
 Implementar o login automático no app, caso o usuário esteja logado.
 Logout com Firebase.
 
-##Firebase_Auth_Parte2
+## Firebase_Auth_Parte2
 Cadastro de usuário o Firebase
 Aplicativo agora funciona apenas com Firebase (removido o ws de login).
 
-##Firebase_Database
+## Firebase_Database
 Lista de favoritos no realtime database.
 
-##WebView
+## WebView
 Tela de "Visite o site" com WebView.
 
-##Biometria
+## Biometria
 Biometria com o plugin local_auth.
