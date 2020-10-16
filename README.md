@@ -1,78 +1,110 @@
-# catalogocarros
+# catalogocarros app
 
 A new Flutter application.
 
 ## Getting Started
-carros
-A new Flutter application.
+Aplicativo de Catalogo de Carros desenvolvido em <b>FLUTTER</b>
 
-Getting Started
-Manual de como usar as branches app dos carros.
 
-01_Login_Lista
+## Splash Screen
+Animação e transição. 
 
-Tela de login com web services
-Lista de carros com 4 exemplos de layout
-02_WebServices_Carros
 
-List de carros com Web Services
-FutureBuilder
-03_Tabs
+## Login Lista
+Tela de login com web services.
 
+Lista de carros com 4 exemplos de layout.
+
+
+## WebServices Carros
+List de carros com Web Services.
+
+FutureBuilder.
+
+
+## Tabs
 Criada a classe CarrosListView
+
 Na HomePage foi adicionada uma TabBar (classicos, esportivos, luxo)
+
 Explicado como manter as abas vivas em memória.
-04_Persistencia
 
+## Persistencia
 Shared Preferences
+
 Arquivos
-Banco de Dados - SQLite
-05_Cadastro
 
+Banco de Dados - SQLite.
+
+
+## Cadastro
 Formulário para cadastrar um carro
+
 POST no servidor com JSON do carro
+
 Share
-Alerta com opções e Bottom Sheet
-06_Camera
 
+Alerta com opções e Bottom Sheet.
+
+
+## Camera
 Tirar fotos
+
 Enviar foto para o servidor
-Salvar foto do carro
-07_Streams
 
-Refactor do projeto para utilizar Streams e o padrão Bloc
-08_Erros
+Salvar foto do carro.
 
+
+## Streams
+Refactor do projeto para utilizar Streams e o padrão Bloc.
+
+
+## Erros
 Tratamento de erros, try/catch e como utilizar stream.error
+
 login try/catch
+
 verificar se existe internet
-RefreshIndicator
-09_Video
 
+RefreshIndicator.
+
+
+## Video
 Mostrar o vídeo da URL do carro.
+
 Como usar o plugin url_launcher
-10_Video
 
+
+## Mapa
 Mostrar mapa com a lat/lng que está no cadastro do carro.
-11_Drawer
 
+
+## Drawer
 Menu lateral mostrando os dados do usuário logado.
-12_Firebase_Auth
 
+
+## Firebase_Auth
 Login com Google e Firebase
+
 Menu lateral com o FirebaseUser
+
 Implementar o login automático no app, caso o usuário esteja logado.
-Logout com Firebase
-13_Firebase_Auth_Parte2
 
+Logout com Firebase.
+
+## Firebase_Auth_Parte2
 Cadastro de usuário o Firebase
+
 Aplicativo agora funciona apenas com Firebase (removido o ws de login).
-14_Firebase_Database
 
+
+## Firebase_Database
 Lista de favoritos no realtime database.
-15_WebView
 
+
+## WebView
 Tela de "Visite o site" com WebView.
-16_Biometria
 
-Biometria com o plugin local_auth
+
+## Biometria
+Biometria com o plugin local_auth.
