@@ -16,8 +16,8 @@
          FlutterApplication and put your custom class here. -->
     <application
         android:name="io.flutter.app.FlutterApplication"
-        android:icon="@mipmap/ic_launcher"
-        android:label="catalogocarros">
+        android:icon="@mipmap/launcher_icon"
+        android:label="Catalogo de carro Flutter">
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"

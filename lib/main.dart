@@ -1,4 +1,4 @@
-import 'package:catalogocarros/Animations/FadeAnimation.dart';
+import 'package:catalogocarros/Animations/fade_animation.dart';
 import 'package:catalogocarros/pages/login_page.dart';
 import 'package:catalogocarros/utils/nav.dart';
 
