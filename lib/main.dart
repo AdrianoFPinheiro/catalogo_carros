@@ -1,6 +1,7 @@
 import 'package:catalogocarros/Animations/fade_animation.dart';
 import 'package:catalogocarros/pages/login_page.dart';
 import 'package:catalogocarros/utils/nav.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 
 import 'package:flutter/material.dart';
 
@@ -28,6 +29,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin{
   Animation<double> _scale2Animation;
   Animation<double> _widthAnimation;
   Animation<double> _positionAnimation;
+  FirebaseUser fUser;
 
   bool hideIcon = false;
 
@@ -36,6 +38,17 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin{
     // TODO: implement initState
     super.initState();
 
+
+    // FirebaseAuth.instance.currentUser().then((fUser) {
+    //   setState(() {
+    //     this.fUser = fUser;
+    //     if (fUser != null) {
+    //       pushReplacement(context, HomePage());
+    //     } else {
+    //       pushReplacement(context, LoginPage());
+    //     }
+    //   });
+    // });
     _scaleController = AnimationController(
         vsync: this,
         duration: Duration(milliseconds: 300)
