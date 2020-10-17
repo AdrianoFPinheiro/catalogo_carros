@@ -14,7 +14,8 @@ class LinkedinPage extends StatelessWidget {
 
   _webView() {
     return WebView(
-      initialUrl: "https://www.linkedin.com/in/adrianofpinheiro/",
+      // initialUrl: "https://www.linkedin.com/in/adrianofpinheiro",
+      initialUrl: "https://github.com/AdrianoFPinheiro?tab=repositories",
     );
   }
 }
