@@ -208,7 +208,6 @@ class _CadastroPageState extends State<CadastroPage> {
      await pushReplacement(context, LoginPage());
     }
 
-
     setState(() {
       _progress = false;
     });
