@@ -169,16 +169,17 @@ class CarroService {
     return body;
   }
 
-  static List<Carro> getCarrosFake() {
+
+  /*static List<Carro> getCarrosFake() {
     final carros = List.generate(50, (idx) {
       var url =
           "http://www.livroandroid.com.br/livro/carros/esportivos/Ferrari_FF.png";
 
-      return Carro();
+      return Carro("Ferrari $idx", url);
     },);
 
     return carros;
-  }
+  }*/
 
 
   static FutureOr<http.Response> _onTimeOut() {

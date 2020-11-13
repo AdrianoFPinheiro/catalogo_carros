@@ -83,7 +83,6 @@ class FirebaseService {
     final FirebaseUser fuser = result.user;
     print("signed in " + fuser.displayName);
 
-
     // Resposta genérica
     return Response(true,"Login efetuado com sucesso");
   }

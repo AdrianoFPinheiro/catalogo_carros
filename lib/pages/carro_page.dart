@@ -1,15 +1,20 @@
 import 'dart:async';
+import 'dart:io';
 
+import 'package:catalogocarros/bus/event_bus.dart';
+import 'package:catalogocarros/bus/events.dart';
 import 'package:catalogocarros/domain/carro.dart';
-import 'package:catalogocarros/domain/db/carro_db.dart';
 import 'package:catalogocarros/domain/services/carro_service.dart';
+import 'package:catalogocarros/domain/services/carros_bloc.dart';
 import 'package:catalogocarros/firebase/favoritos_service.dart';
 import 'package:catalogocarros/pages/carro_form_page.dart';
 import 'package:catalogocarros/pages/map_page.dart';
+import 'package:catalogocarros/pages/video_page.dart';
 import 'package:catalogocarros/utils/alerts.dart';
 import 'package:catalogocarros/utils/nav.dart';
+import 'package:catalogocarros/widgets/carros_listView.dart';
 import 'package:flutter/material.dart';
-import 'package:url_launcher/url_launcher.dart';
+
 
 class CarroPage extends StatefulWidget {
   final Carro carro;
@@ -41,13 +46,13 @@ class _CarroPageState extends State<CarroPage> {
       }
     });
 
-    CarroDB.getInstance().exists(carro).then((b){
-      if(b) {
-        setState(() {
-          _isFavorito = b;
-        });
-      }
-    });
+//    CarroDB.getInstance().exists(carro).then((b){
+//      if(b) {
+//        setState(() {
+//          _isFavorito = b;
+//        });
+//      }
+//    });
   }
 
   @override
@@ -223,9 +228,9 @@ class _CarroPageState extends State<CarroPage> {
 
   void _onClickVideo(context) {
     if(carro.urlVideo != null && carro.urlVideo.isNotEmpty) {
-      launch(carro.urlVideo);
+      // launch(carro.urlVideo);
 
-      //push(context, VideoPage(carro));
+      push(context, VideoPage(carro));
     } else {
       alert(context, "Erro", "Este carro não possui nenhum vídeo");
     }

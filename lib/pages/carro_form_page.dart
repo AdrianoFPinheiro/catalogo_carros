@@ -124,16 +124,16 @@ class _CarroFormPageState extends State<CarroFormPage> {
               color: Colors.blue,
               child: _showProgress
                   ? CircularProgressIndicator(
-                      valueColor:
-                          new AlwaysStoppedAnimation<Color>(Colors.white),
-                    )
+                valueColor:
+                new AlwaysStoppedAnimation<Color>(Colors.white),
+              )
                   : new Text(
-                      "Salvar",
-                      style: new TextStyle(
-                        color: Colors.white,
-                        fontSize: 22,
-                      ),
-                    ),
+                "Salvar",
+                style: new TextStyle(
+                  color: Colors.white,
+                  fontSize: 22,
+                ),
+              ),
               onPressed: () {
                 _onClickSalvar(context);
               },
@@ -166,8 +166,8 @@ class _CarroFormPageState extends State<CarroFormPage> {
 
   _onClickFoto() async {
     fileCamera =
-      await ImagePicker.pickImage
-        (source: ImageSource.camera);
+    await ImagePicker.pickImage
+      (source: ImageSource.camera);
 
     FirebaseService.uploadFirebaseStorage(fileCamera);
 

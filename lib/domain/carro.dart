@@ -18,10 +18,10 @@ class Carro {
   String longitude;
 
   latlng() {
-   return LatLng(
-       latitude == null || latitude.isEmpty ? 0.0 : double.parse(latitude),
-       longitude == null || longitude.isEmpty ? 0.0 : double.parse(longitude)
-   );
+    return LatLng(
+        latitude == null || latitude.isEmpty ? 0.0 : double.parse(latitude),
+        longitude == null || longitude.isEmpty ? 0.0 : double.parse(longitude)
+    );
   }
 
   Carro(

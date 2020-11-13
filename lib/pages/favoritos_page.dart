@@ -1,6 +1,5 @@
 
 import 'package:catalogocarros/domain/carro.dart';
-import 'package:catalogocarros/domain/db/carro_db.dart';
 import 'package:catalogocarros/firebase/favoritos_service.dart';
 import 'package:catalogocarros/widgets/carros_listView.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
@@ -27,7 +26,7 @@ class _FavoritosPageState extends State<FavoritosPage>
   _body() {
 
     //Banco de Dados
-    Future<List<Carro>> future = CarroDB.getInstance().getCarros();
+    //Future<List<Carro>> future = CarroDB.getInstance().getCarros();
 
     final service = FavoritosService();
 

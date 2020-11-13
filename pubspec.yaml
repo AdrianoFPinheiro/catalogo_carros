@@ -85,7 +85,7 @@ flutter:
   assets:
     - assets/images/
     - assets/fake/
-    - assets/icon/
+    - assets/icons/
 
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
