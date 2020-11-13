@@ -205,7 +205,7 @@ class _CadastroPageState extends State<CadastroPage> {
       pushReplacement(context, HomePage());
     } else {
       alert(context, "Cadastrado! ", "Usuário cadastrado com sucesso");
-     await pushReplacement(context, HomePage());
+     await pushReplacement(context, LoginPage());
     }
 
 
